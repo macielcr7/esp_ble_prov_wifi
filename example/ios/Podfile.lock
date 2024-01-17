@@ -1,0 +1,45 @@
+PODS:
+  - Curve25519 (1.1)
+  - esp_ble_prov_wifi (1.0.0):
+    - ESPProvision
+    - Flutter
+  - ESPProvision (2.0.16):
+    - ESPProvision/Core (= 2.0.16)
+  - ESPProvision/Core (2.0.16):
+    - Curve25519 (~> 1.1.0)
+    - SwiftProtobuf (~> 1.5.0)
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - SwiftProtobuf (1.5.0)
+
+DEPENDENCIES:
+  - esp_ble_prov_wifi (from `.symlinks/plugins/esp_ble_prov_wifi/ios`)
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Curve25519
+    - ESPProvision
+    - SwiftProtobuf
+
+EXTERNAL SOURCES:
+  esp_ble_prov_wifi:
+    :path: ".symlinks/plugins/esp_ble_prov_wifi/ios"
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+
+SPEC CHECKSUMS:
+  Curve25519: 5f595e906bd962248665978e2992a1fe96e2d831
+  esp_ble_prov_wifi: a5fe49c9e14e5801ecf231bbb7d6e16477b5a4f8
+  ESPProvision: 2e9b4b72d8bb880051882836b17f28f6537a7b77
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  integration_test: 13825b8a9334a850581300559b8839134b124670
+  SwiftProtobuf: 241400280f912735c1e1b9fe675fdd2c6c4d42e2
+
+PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+
+COCOAPODS: 1.13.0
